@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 
 
         view.backgroundColor = .white
-
+        print("Hola")
         navigationItem.title = "Companies"
 
         navigationItem.rightBarButtonItem = UIBarButtonItem(image:  UIImage(systemName: "plus.square")?.withTintColor(.white, renderingMode: .alwaysOriginal), style: .done, target: self, action: #selector(handleAddCompany))
